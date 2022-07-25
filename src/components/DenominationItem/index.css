@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.denomination-container {
+  list-style-type: none;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.btn-styling {
+  background-color: blue;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid none;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+}

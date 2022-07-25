@@ -1,0 +1,133 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+  margin: 20px;
+  box-shadow: aqua;
+  border-radius: 18px;
+}
+
+.cashWithdraw-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
+  box-shadow: black;
+}
+@media screen and (min-width: 768px) {
+  .cashWithdraw-container {
+    width: 50%;
+    padding-top: 48px;
+    padding-left: 36px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    max-width: 422px;
+  }
+}
+.user-profile {
+  display: flex;
+}
+.container {
+  background-color: silver;
+  border-radius: 10px;
+  box-shadow: 0px;
+  width: 95%;
+  padding: 10px;
+}
+
+.name-letter-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .name-letter-display-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+
+.letter-styling {
+  color: forestgreen;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.name-styling {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.balance-name-styling {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.balance {
+  color: #50766b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.withdraw-styling {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.choose-text {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-ext {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.amount-details {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
